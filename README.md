@@ -1,4 +1,4 @@
-# IOTech coding assessment exercice 02
+# IoTech coding assessment exercice 02
 
 ## Install the required packages
 
