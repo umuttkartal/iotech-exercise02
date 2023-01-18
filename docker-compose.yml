@@ -1,0 +1,5 @@
+version: '3'
+services:
+  iotech02:
+    build: .
+    command: bash -c "python main.py && python -m unittest test_02.py"
