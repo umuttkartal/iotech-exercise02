@@ -32,7 +32,7 @@ To run the container:
 
 This will run the main program inside the container, it will parse the data from exercise-02/data/data.json, discard the devices where the timestamp value is before the current time, get the total of all value entries, parse the uuid from the info field of each entry, and output the values total and the list of uuids in the format described by the JSON schema. Write this data to a file named output.json.
 
-## docker-compose option for running the tests and the solution in the same container:
+### docker-compose option for running the tests and the solution in the same container:
 
 - docker-compose up
 
