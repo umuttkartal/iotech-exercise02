@@ -30,7 +30,7 @@ To run the container:
 
 - docker run "image-name"
 
-This will run the main program inside the container, it will parse the data from exercise-02/data/data.json, discard the devices where the timestamp value is before the current time, get the total of all value entries, parse the uuid from the info field of each entry, and output the values total and the list of uuids in the format described by the JSON schema. Write this data to a file named output.json.
+This will run the main program inside the container.
 
 ### docker-compose option for running the tests and the solution in the same container:
 
@@ -40,5 +40,5 @@ It will create a container with the image built from the current directory and r
 
 You can also use docker-compose run command to run the test and script separately, for example:
 
-- docker-compose run "image-name" python main.py
-- docker-compose run "image-name" python -m unittest test_02.py
+- docker-compose run iotech02 python main.py
+- docker-compose run iotech02 python -m unittest test_02.py
