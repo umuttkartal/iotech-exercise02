@@ -16,7 +16,7 @@ This will parse the data from exercise-02/data/data.json, discard the devices wh
 
 To run the tests, use the following command:
 
-- python -m unittest test_main.py
+- python -m unittest test_02.py
 
 This will discover and run all tests in the project.
 
