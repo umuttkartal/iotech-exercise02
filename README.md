@@ -1,4 +1,4 @@
-# IoTech coding assessment exercice 02
+# IoTech coding assessment exercise 02
 
 ## Install the required packages
 
@@ -10,7 +10,7 @@ To run the program, use the following command:
 
 - python main.py
 
-This will parse the data from exercise-02/data/data.json, discard the devices where the timestamp value is before the current time, get the total of all value entries, parse the uuid from the info field of each entry, and output the values total and the list of uuids in the format described by the JSON schema. Write this data to a file named output.json.
+This will parse the data from exercise-02/data/data.json, discard the devices where the timestamp value is before the current time, get the total of all value entries, parse the uuid from the info field of each entry, and output the values total and the list of uuids in the format described by the JSON schema. Write this data to a file named output.json in the folder exercise-02.
 
 ## Running the tests:
 
